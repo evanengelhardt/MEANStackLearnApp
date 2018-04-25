@@ -1,0 +1,30 @@
+{
+  "name": "meanstacklearnapp",
+  "version": "1.0.0",
+  "description": "Application to gain familiarity with the MEAN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanengelhardt/MEANStackLearnApp.git"
+  },
+  "author": "Evan Engelhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanengelhardt/MEANStackLearnApp/issues"
+  },
+  "homepage": "https://github.com/evanengelhardt/MEANStackLearnApp#readme"
+}
