@@ -20,9 +20,6 @@ mongoose.connection.on('error', (err) => {
   console.log('Database Error: ' + err);
 });
 
-// set up user routes
-const users = require('./routes/users');
-app.use('/users', users);
 
 // Port Number
 const port = 3000;
@@ -35,6 +32,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // body parser middleware
 app.use(bodyParser.json());
+
+// set up user routes
+const users = require('./routes/users');
+app.use('/users', users);
 
 
 
